@@ -8,9 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
-  "install": {
-    "command": "npm install --legacy-peer-deps"
-  },
+  "installCommand": "npm install --legacy-peer-deps",
   "dependencies": {
     "@fhenixprotocol/contracts": "^0.1.0",
     "ethers": "^6.8.0",
