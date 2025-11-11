@@ -1,4 +1,4 @@
 {
-  "installCommand": "npm install --production",
+  "installCommand": "npm install --omit=dev --legacy-peer-deps",
   "buildCommand": "npm run build"
 }
