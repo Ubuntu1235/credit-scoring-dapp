@@ -24,8 +24,5 @@
     "hardhat": "^2.22.0",
     "typescript": "^5.0.2",
     "vite": "^5.0.0"
-  },
-  "vercel": {
-    "installCommand": "npm install --production"
   }
 }
