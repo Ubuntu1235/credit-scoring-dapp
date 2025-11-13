@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ethers } from 'ethers';
+import Header from './components/Header';
+import UserDashboard from './components/UserDashboard';
+import LenderDashboard from './components/LenderDashboard';
+import Marketplace from './components/Marketplace';
 import './App.css';
 
 // Import contract addresses and ABIs
